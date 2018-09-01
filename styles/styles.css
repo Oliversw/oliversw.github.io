@@ -98,6 +98,9 @@ Main Picture
 Content
 *
 */
+.intro {
+  margin: 10px 50px 10px 50px;
+}
 
 ul {
   list-style-type: none;
