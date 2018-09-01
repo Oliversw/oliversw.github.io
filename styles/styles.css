@@ -67,11 +67,6 @@ header {
   justify-content: space-between;
 }
 
-.logo {
-  width: 15%;
-  height: 15%;
-}
-
 .header-text {
   display: flex;
   flex-direction: column;
@@ -90,10 +85,28 @@ header {
   color: #093C88;
 }
 
+/*
+*
+Footer
+*
+*/
 
-hr {
-  height: 2px;
-  border-radius: 10px;
-  background-color: #1D1D1D;
-  margin: 1.5% 0 1.5% 0;
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-icons {
+  font-size: 2.5em;
+}
+
+.social-icons a {
+  color: #2668CA;
+  margin: 7px;
+}
+
+.social-icons a:hover {
+  transition: 0.5s;
+  color: #020107;
 }
