@@ -163,6 +163,10 @@ footer {
   color: #020107;
 }
 
+footer a {
+  margin-bottom: 15px;
+}
+
 /*
 *
 Media Queries
