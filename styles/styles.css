@@ -104,6 +104,36 @@ ul {
   padding: 0;
 }
 
+.featured-projects {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.project-section {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  max-width: 31%;
+  min-width: 250px;
+}
+
+.circus-vid {
+  max-width: 50%;
+}
+
+.circus-vid iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.circus-vid h4 {
+  margin: 2%;
+}
+
 /*
 *
 Footer
